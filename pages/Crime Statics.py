@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Read the dataset from Excel
-data = pd.read_csv('https://drive.google.com/file/d/1t_p8kliEMoVe_jtgp3gSLcFsvcxTPa7w/view?usp=drive_link')
+data = pd.read_csv('https://github.com/Perfect-Princess/Crime-Analysis/blob/master/pages/crime.csv')
 
 # Page title
 st.title('Crime Data Statistics')
