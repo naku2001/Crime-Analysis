@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read the dataset from Excel
-data = pd.read_csv('https://github.com/Perfect-Princess/Crime-Analysis/blob/master/pages/crime.csv')
+data = pd.read_csv('https://drive.google.com/file/d/1t_p8kliEMoVe_jtgp3gSLcFsvcxTPa7w/view?usp=sharing')
 
 
 # Page title
