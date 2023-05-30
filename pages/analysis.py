@@ -6,7 +6,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read the dataset from Excel
-data = pd.read_csv('https://drive.google.com/file/d/1t_p8kliEMoVe_jtgp3gSLcFsvcxTPa7w/view?usp=sharing')
+url='https://drive.google.com/file/d/1t_p8kliEMoVe_jtgp3gSLcFsvcxTPa7w/view?usp=sharing'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+df = pd.read_csv(url)
 
 
 # Page title
