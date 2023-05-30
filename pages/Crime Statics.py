@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Read the dataset from Excel
-data = pd.read_csv('crime.csv')
+data = pd.read_csv('./crime.csv')
 
 # Page title
 st.title('Crime Data Statistics')
